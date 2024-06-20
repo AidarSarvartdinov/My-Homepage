@@ -1,5 +1,4 @@
 body {
-
     padding: 0 200px;
     background-image: linear-gradient(black, rgb(35, 35, 35));
     background-attachment: fixed;
@@ -20,21 +19,22 @@ div {
     display: flex;
     text-align: center;
     align-items: center;
+    
 }
 
 .left-header {
     float: left;
-    width: 50%;
+    width: 40%;
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
 .right-header {
-    float: right;
-    width: 50%;
+    width: 60%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
+    
 }
 
 .main-text {
@@ -100,4 +100,38 @@ div {
 
 .project p {
     font-size: 20px;
+}
+
+#comic-title {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 1em;
+}
+
+#comic-img-part {
+    padding-top: 2em;
+    text-align: center;
+}
+
+
+#comic-date-part {
+    padding-top: 2em;
+    text-align: center;
+    
+}
+
+#comic-form {
+    padding-top: 2em;
+    text-align: center;
+}
+
+#comic-heading {
+    text-align: center;
+    font-size: 2em;
+}
+
+#email-error {
+    color: red;
+    padding-left: 3em;
+    padding-top: 1em;
 }

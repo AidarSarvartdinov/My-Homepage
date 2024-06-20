@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Aidar</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Comic</title>
 </head>
 <body>
     <div class="header-line">
@@ -21,12 +21,25 @@
             </nav>
         </div>
     </div> 
-
-    <div style="text-align: center;"><h1 class="heading">My social links</h1></div>
-    <div id="links">
-        <a id="tg-link" href="https://t.me/aidar_sar"><img src="telegramIcon.png" width="145" alt="Telegram"></a>
-        <a id="dc-link" href=" https://discord.com/users/Aidar#6319"><img src="discordIcon.png" width="145"></a>
-        <a id="gh-link" href="https://github.com/AidarSarvartdinov"><img src="githubIcon.png" width="145"></a>
+    <div class="heading" id="comic-heading">
+        Comic
     </div>
+    <div>
+        <form id="comic-form" method="post">
+            <label for="email">Enter yout email:</label>
+            <input type="text" name="email" id="email">
+            <button type="submit">Submit</button>
+            <div id="email-error"></div>
+        </form>
+    </div>
+    <div id="comic-title">Enter your email to get a comic</div>
+    <div id="comic-img-part">
+        <img src="" id="comic-img">
+    </div>
+    <div id="comic-date-part">
+        <div id="comic-date"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
